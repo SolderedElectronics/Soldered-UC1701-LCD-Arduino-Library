@@ -152,6 +152,7 @@ void UC1701_SOLDERED::writePixel(int16_t x, int16_t y, uint16_t color)
     }
 
     if ((x >= 0) && (x <= screenHMax) && (y >= 0) && (y <= screenVMax))
+    {
         if (enabled && color)
         {
             buf[x + (y / 8) * screenWidth] = buf[x + (y / 8) * screenWidth] | (1 << (y % 8));
@@ -160,6 +161,7 @@ void UC1701_SOLDERED::writePixel(int16_t x, int16_t y, uint16_t color)
         {
             buf[x + (y / 8) * screenWidth] = buf[x + (y / 8) * screenWidth] & (~(1 << (y % 8)));
         }
+    }
 }
 
 /**
