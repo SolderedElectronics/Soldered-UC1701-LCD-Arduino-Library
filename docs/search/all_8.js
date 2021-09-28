@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a64631d9b1f7d05f32f85b547097e83b5',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_2',['readRegister',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a759023180eea23f55cbb24cbd89ec3b8',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['height_0',['HEIGHT',['../class_adafruit___g_f_x.html#a2b7801fc9c405a61abe6e5916b55825b',1,'Adafruit_GFX']]],
+  ['height_1',['height',['../struct_g_f_xglyph.html#a24cff650b78fc295dc46e1bfa9127bb7',1,'GFXglyph::height()'],['../class_adafruit___g_f_x.html#a49da524caa19e5202ed2ed7fd5a3baea',1,'Adafruit_GFX::height()']]]
 ];

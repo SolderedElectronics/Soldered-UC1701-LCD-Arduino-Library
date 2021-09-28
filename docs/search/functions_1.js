@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aea626d369c76c341ddbb3b3b56ca1466',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['begin_0',['begin',['../class_u_c1701___s_o_l_d_e_r_e_d.html#a3ebad346bcbe97755afb790a83c317cb',1,'UC1701_SOLDERED']]],
+  ['byteswap_1',['byteSwap',['../class_g_f_xcanvas16.html#a1d0f26a1252ad384612ca14b07cee98e',1,'GFXcanvas16']]]
 ];

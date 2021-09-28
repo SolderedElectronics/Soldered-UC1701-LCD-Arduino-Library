@@ -24,12 +24,14 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
-    ] ],
+  [ "UC1701 LCD Arduino Library", "index.html", [
     [ "Classes", "annotated.html", [
+      [ "Repository Contents", "index.html#autotoc_md1", null ],
+      [ "Hardware design", "index.html#autotoc_md2", null ],
+      [ "Documentation", "index.html#autotoc_md3", null ],
+      [ "About Soldered", "index.html#autotoc_md4", null ],
+      [ "Original source", "index.html#autotoc_md5", null ],
+      [ "Open-source license", "index.html#autotoc_md6", null ],
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -40,14 +42,19 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_adafruit___g_f_x_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a7f716bbd85e3792cae6499061a7835f7',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['senddata_1',['sendData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a8296d38ba78ba4d45804a5db26663d71',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['sensor_2',['Sensor',['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor']]]
+  ['endwrite_0',['endWrite',['../class_adafruit___g_f_x.html#ab9be8787f3683151e86c1f3b5c8685d6',1,'Adafruit_GFX::endWrite()'],['../class_u_c1701___s_o_l_d_e_r_e_d.html#a6f4c48f4ceff96f6f1b9c8d7affb03b4',1,'UC1701_SOLDERED::endWrite()']]]
 ];
