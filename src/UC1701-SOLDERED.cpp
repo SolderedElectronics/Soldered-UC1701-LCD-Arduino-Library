@@ -104,7 +104,7 @@ void UC1701_SOLDERED::sendBuf(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1)
     int p, p0, p1, i, j, b, x;
 
     if (dontSendBuf > 0)
-        exit;
+        return;
 
     p0 = max(y0 / 8, 0);
     p1 = min(y1, screenVMax) / 8;
