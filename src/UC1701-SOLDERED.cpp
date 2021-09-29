@@ -79,28 +79,6 @@ void UC1701_SOLDERED::sendData(uint8_t b)
  */
 void UC1701_SOLDERED::sendBuf(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1)
 {
-    switch (rotation)
-    {
-    case 1:
-        _swap_int16_t(x0, y0);
-        x0 = height() - x0 - 1;
-        _swap_int16_t(x1, y1);
-        x1 = height() - x1 - 1;
-        break;
-    case 2:
-        x0 = width() - x0 - 1;
-        y0 = height() - y0 - 1;
-        x1 = width() - x1 - 1;
-        y1 = height() - y1 - 1;
-        break;
-    case 3:
-        _swap_int16_t(x0, y0);
-        y0 = width() - y0 - 1;
-        _swap_int16_t(x1, y1);
-        y1 = width() - y1 - 1;
-        break;
-    }
-
     int p, p0, p1, i, j, b, x;
 
     if (dontSendBuf > 0)
@@ -184,7 +162,7 @@ void UC1701_SOLDERED::clearDisplay()
 {
     dontSendBuf = 0;
     memset(buf, 0, sizeof(buf));
-    sendBuf(0, 0, screenHMax, screenVMax);
+    // sendBuf(0, 0, screenHMax, screenVMax);
 }
 
 /**
