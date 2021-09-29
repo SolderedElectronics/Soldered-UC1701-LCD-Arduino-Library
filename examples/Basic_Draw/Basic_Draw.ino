@@ -29,6 +29,8 @@ void setup()
 
     display.setCursor(40, 20);
     display.print("Hello World!");
+
+    display.display();
 }
 
 void loop()
