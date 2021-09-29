@@ -152,7 +152,7 @@ void UC1701_SOLDERED::writePixel(int16_t x, int16_t y, uint16_t color)
 void UC1701_SOLDERED::drawPixel(int16_t x, int16_t y, uint16_t color)
 {
     writePixel(x, y, color);
-    sendBuf(x, y, x, y);
+    // sendBuf(x, y, x, y);
 }
 
 /**
@@ -163,6 +163,14 @@ void UC1701_SOLDERED::clearDisplay()
     dontSendBuf = 0;
     memset(buf, 0, sizeof(buf));
     // sendBuf(0, 0, screenHMax, screenVMax);
+}
+
+/**
+ * @brief                   Send data to screen
+ */
+void UC1701_SOLDERED::display()
+{
+    sendBuf(0, 0, screenHMax, screenVMax);
 }
 
 /**

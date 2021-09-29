@@ -50,11 +50,6 @@ class UC1701_SOLDERED : public Adafruit_GFX
 
     void begin(uint8_t MOSI, uint8_t CLK, uint8_t CS, uint8_t CD, uint8_t RST, bool xFlip = false, bool yFlip = false);
 
-    void endWrite()
-    {
-        sendBuf();
-    }
-
     void clearDisplay();
 
     void writePixel(int16_t x, int16_t y, uint16_t color);
@@ -64,6 +59,8 @@ class UC1701_SOLDERED : public Adafruit_GFX
     void setEnabled(bool en);
     void setContrast(uint8_t value);
     void setResistor(uint8_t value);
+
+    void display();
 };
 
 #endif
