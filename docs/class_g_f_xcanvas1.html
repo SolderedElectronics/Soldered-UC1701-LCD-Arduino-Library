@@ -313,9 +313,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a8424772ba222a7c28992c43934213449"><td class="memItemLeft" align="right" valign="top">static const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_f_xcanvas1.html#a8424772ba222a7c28992c43934213449">GFXsetBit</a> []</td></tr>
+<tr class="memitem:a8424772ba222a7c28992c43934213449"><td class="memItemLeft" align="right" valign="top">static const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_f_xcanvas1.html#a8424772ba222a7c28992c43934213449">GFXsetBit</a> [] = {0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01}</td></tr>
 <tr class="separator:a8424772ba222a7c28992c43934213449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad401abcfb5ce8f69f3245185af20bbda"><td class="memItemLeft" align="right" valign="top">static const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_f_xcanvas1.html#ad401abcfb5ce8f69f3245185af20bbda">GFXclrBit</a> []</td></tr>
+<tr class="memitem:ad401abcfb5ce8f69f3245185af20bbda"><td class="memItemLeft" align="right" valign="top">static const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_f_xcanvas1.html#ad401abcfb5ce8f69f3245185af20bbda">GFXclrBit</a> [] = {0x7F, 0xBF, 0xDF, 0xEF, 0xF7, 0xFB, 0xFD, 0xFE}</td></tr>
 <tr class="separator:ad401abcfb5ce8f69f3245185af20bbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
@@ -893,7 +893,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a> GFXcanvas1::GFXclrBit</td>
+          <td class="memname">const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a> GFXcanvas1::GFXclrBit = {0x7F, 0xBF, 0xDF, 0xEF, 0xF7, 0xFB, 0xFD, 0xFE}</td>
         </tr>
       </table>
   </td>
@@ -902,9 +902,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {0x7F, 0xBF, 0xDF, 0xEF,</div>
-<div class="line">                                                 0xF7, 0xFB, 0xFD, 0xFE}</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a8424772ba222a7c28992c43934213449" name="a8424772ba222a7c28992c43934213449"></a>
@@ -917,7 +915,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a> GFXcanvas1::GFXsetBit</td>
+          <td class="memname">const uint8_t <a class="el" href="glcdfont_8c.html#a6cb9c6382dff2c5a0540bbf5f2c2e73e">PROGMEM</a> GFXcanvas1::GFXsetBit = {0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01}</td>
         </tr>
       </table>
   </td>
@@ -926,9 +924,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {0x80, 0x40, 0x20, 0x10,</div>
-<div class="line">                                                 0x08, 0x04, 0x02, 0x01}</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -943,7 +939,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_g_f_xcanvas1.html">GFXcanvas1</a></li>
         <li class="footer">
-            Generated on Tue Sep 28 2021 08:25:51 for UC1701 LCD Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Wed Sep 29 2021 08:30:09 for UC1701 LCD Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.2.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
