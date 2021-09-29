@@ -167,10 +167,15 @@ void UC1701_SOLDERED::clearDisplay()
 
 /**
  * @brief                   Send data to screen
+ *
+ * @param  x0               X start position
+ * @param  y0               Y start position
+ * @param  x1               X end position
+ * @param  y1               Y end position
  */
-void UC1701_SOLDERED::display()
+void UC1701_SOLDERED::display(int x0, int y0, int x1, int y1)
 {
-    sendBuf(0, 0, screenHMax, screenVMax);
+    sendBuf(x0, y0, x1, y1);
 }
 
 /**

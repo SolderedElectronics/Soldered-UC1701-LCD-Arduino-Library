@@ -60,7 +60,7 @@ class UC1701_SOLDERED : public Adafruit_GFX
     void setContrast(uint8_t value);
     void setResistor(uint8_t value);
 
-    void display();
+    void display(int x0 = 0, int y0 = 0, int x1 = screenHMax, int y1 = screenVMax);
 };
 
 #endif
