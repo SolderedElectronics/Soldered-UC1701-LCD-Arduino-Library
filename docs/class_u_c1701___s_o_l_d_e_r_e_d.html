@@ -128,9 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a288a4150517a03f14e35b8b9908cda6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#a288a4150517a03f14e35b8b9908cda6e">setResistor</a> (uint8_t value)</td></tr>
 <tr class="memdesc:a288a4150517a03f14e35b8b9908cda6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets screens resistor ratio.  <a href="class_u_c1701___s_o_l_d_e_r_e_d.html#a288a4150517a03f14e35b8b9908cda6e">More...</a><br /></td></tr>
 <tr class="separator:a288a4150517a03f14e35b8b9908cda6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04ca7b9e97a4ac5b67b7b97f31731a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#a04ca7b9e97a4ac5b67b7b97f31731a55">display</a> ()</td></tr>
-<tr class="memdesc:a04ca7b9e97a4ac5b67b7b97f31731a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data to screen.  <a href="class_u_c1701___s_o_l_d_e_r_e_d.html#a04ca7b9e97a4ac5b67b7b97f31731a55">More...</a><br /></td></tr>
-<tr class="separator:a04ca7b9e97a4ac5b67b7b97f31731a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73683b232f2e5acff55cd546ca181ffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#a73683b232f2e5acff55cd546ca181ffa">display</a> (int x0=0, int y0=0, int x1=<a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#ad5dcdb12689bfd41464fe7041ba23c7e">screenHMax</a>, int y1=<a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#a6e5be6289d7aa606cb27219c15428076">screenVMax</a>)</td></tr>
+<tr class="memdesc:a73683b232f2e5acff55cd546ca181ffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data to screen.  <a href="class_u_c1701___s_o_l_d_e_r_e_d.html#a73683b232f2e5acff55cd546ca181ffa">More...</a><br /></td></tr>
+<tr class="separator:a73683b232f2e5acff55cd546ca181ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_adafruit___g_f_x"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_adafruit___g_f_x')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_adafruit___g_f_x.html">Adafruit_GFX</a></td></tr>
 <tr class="memitem:a6f6f1abccf677eac244fa17d105133ea inherit pub_methods_class_adafruit___g_f_x"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___g_f_x.html#a6f6f1abccf677eac244fa17d105133ea">Adafruit_GFX</a> (int16_t w, int16_t h)</td></tr>
 <tr class="memdesc:a6f6f1abccf677eac244fa17d105133ea inherit pub_methods_class_adafruit___g_f_x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instatiate a GFX context for graphics! Can only be done by a superclass.  <a href="class_adafruit___g_f_x.html#a6f6f1abccf677eac244fa17d105133ea">More...</a><br /></td></tr>
@@ -519,8 +519,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a04ca7b9e97a4ac5b67b7b97f31731a55" name="a04ca7b9e97a4ac5b67b7b97f31731a55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ca7b9e97a4ac5b67b7b97f31731a55">&#9670;&nbsp;</a></span>display()</h2>
+<a id="a73683b232f2e5acff55cd546ca181ffa" name="a73683b232f2e5acff55cd546ca181ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73683b232f2e5acff55cd546ca181ffa">&#9670;&nbsp;</a></span>display()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,13 +528,45 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void UC1701_SOLDERED::display </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x0</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y0</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em> = <code><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#ad5dcdb12689bfd41464fe7041ba23c7e">screenHMax</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em> = <code><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html#a6e5be6289d7aa606cb27219c15428076">screenVMax</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Send data to screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x0</td><td>X start position </td></tr>
+    <tr><td class="paramname">y0</td><td>Y start position </td></tr>
+    <tr><td class="paramname">x1</td><td>X end position </td></tr>
+    <tr><td class="paramname">y1</td><td>Y end position </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1223,7 +1255,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_u_c1701___s_o_l_d_e_r_e_d.html">UC1701_SOLDERED</a></li>
         <li class="footer">
-            Generated on Wed Sep 29 2021 11:47:04 for UC1701 LCD Arduino Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Wed Sep 29 2021 12:03:07 for UC1701 LCD Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.2.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

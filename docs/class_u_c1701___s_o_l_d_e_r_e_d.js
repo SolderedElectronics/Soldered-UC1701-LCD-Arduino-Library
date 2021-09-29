@@ -3,7 +3,7 @@ var class_u_c1701___s_o_l_d_e_r_e_d =
     [ "UC1701_SOLDERED", "class_u_c1701___s_o_l_d_e_r_e_d.html#a99700d52c92a9c905032cc045c8496d7", null ],
     [ "begin", "class_u_c1701___s_o_l_d_e_r_e_d.html#a3ebad346bcbe97755afb790a83c317cb", null ],
     [ "clearDisplay", "class_u_c1701___s_o_l_d_e_r_e_d.html#afd58b17793b2dca93c09e916f7e3034a", null ],
-    [ "display", "class_u_c1701___s_o_l_d_e_r_e_d.html#a04ca7b9e97a4ac5b67b7b97f31731a55", null ],
+    [ "display", "class_u_c1701___s_o_l_d_e_r_e_d.html#a73683b232f2e5acff55cd546ca181ffa", null ],
     [ "drawPixel", "class_u_c1701___s_o_l_d_e_r_e_d.html#ab3c5b49fd810f6173dd8f7278f7de080", null ],
     [ "init", "class_u_c1701___s_o_l_d_e_r_e_d.html#af70c5ada439c750f3e68c713afd910d3", null ],
     [ "sendBuf", "class_u_c1701___s_o_l_d_e_r_e_d.html#a038871879c67c9fd8d9c4091094cc6c6", null ],
