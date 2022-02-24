@@ -5,7 +5,7 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [UC1701 LCD](https://www.solde.red/[_SKU]])                                                            |
+| [UC1701 LCD](https://www.solde.red/SKU)                                                            |
 
 UC1701 Graphic LCD Arduino Library. 
 
